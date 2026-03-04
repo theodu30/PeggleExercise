@@ -1,0 +1,15 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/StyleSheets/menu.uss?fileID=7433441132597879392&amp;guid=3aa5e31717c62734bb776f1ccf8795de&amp;type=3#menu"/>
+    <ui:VisualElement name="__ROOT__" style="position: absolute; width: 100%; height: 100%; align-content: center; justify-content: center; align-items: center; align-self: center;">
+        <ui:Label text="Peggle" style="position: absolute; top: 20%; -unity-text-align: upper-center; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=74f0ab83354061c409f23b3338b4b179&amp;type=3#NotInter-Regular&quot;); font-size: 50px;"/>
+        <ui:Label text="Highscore: 0" name="Highscore" style="position: absolute; top: 30%; -unity-text-align: upper-center; -unity-font-style: normal; -unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=74f0ab83354061c409f23b3338b4b179&amp;type=3#NotInter-Regular&quot;); font-size: 40px;"/>
+        <ui:VisualElement name="BUTTONS" style="position: absolute; align-items: center; justify-content: center; align-content: center; font-size: 50px;">
+            <ui:Button name="PlayButton" class="menu-button" style="margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-color: rgba(0, 0, 0, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; aspect-ratio: 1; width: 84px; align-items: flex-start; justify-content: center; align-content: center; -unity-text-align: middle-left; -unity-background-scale-mode: scale-and-crop; left: -50%;">
+                <ui:Label text="Play" style="right: -64px;"/>
+            </ui:Button>
+            <ui:Button name="QuitButton" class="menu-button" style="margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-color: rgba(0, 0, 0, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; aspect-ratio: 1; width: 84px; align-items: flex-start; justify-content: center; align-content: center; -unity-text-align: middle-left; -unity-background-scale-mode: scale-and-crop; left: -50%;">
+                <ui:Label text="Quit" style="right: -64px;"/>
+            </ui:Button>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

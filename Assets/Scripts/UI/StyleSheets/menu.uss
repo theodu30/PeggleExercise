@@ -1,0 +1,17 @@
+:root {
+}
+
+.menu-button {
+    background-image: url("project://database/Assets/Textures/blue_peg.png?fileID=2800000&guid=edf6e79a11bb80b499a22c6486373e59&type=3#blue_peg");
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.menu-button:hover {
+    background-image: url("project://database/Assets/Textures/blue_peg.png?fileID=2800000&guid=edf6e79a11bb80b499a22c6486373e59&type=3#blue_peg");
+    -unity-background-image-tint-color: rgb(159, 159, 159);
+}
+
+.menu-button:active {
+    background-image: url("project://database/Assets/Textures/light_blue_peg.png?fileID=2800000&guid=c89d91e89ce24e44584f02afbb48b74f&type=3#light_blue_peg");
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
